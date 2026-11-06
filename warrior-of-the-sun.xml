@@ -3,7 +3,7 @@
   <info>
     <name>Warrior of the Sun (Variant)</name>
     <update version="1.0.0">
-      <file name="warrior-of-the-sun.xml" url="https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/warrior-of-the-sun.xml" />
+      <file name="warrior-of-the-sun.xml" url="https://raw.githubusercontent.com/JMellon-0/Warrior-of-the-sun/main/warrior-of-the-sun.xml" />
     </update>
   </info>
   <element name="Warrior of the Sun" type="Class" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_CLASS_WARRIOR_OF_THE_SUN">
