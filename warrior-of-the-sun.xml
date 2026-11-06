@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='utf-8'?>
+<elements>
+  <info>
+    <name>Warrior of the Sun (Variant)</name>
+    <update version="1.0.0">
+      <file name="warrior-of-the-sun.xml" url="https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/warrior-of-the-sun.xml" />
+    </update>
+  </info>
+  <element name="Warrior of the Sun" type="Class" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_CLASS_WARRIOR_OF_THE_SUN">
+    <description>
+      <p>Was your warrior cast out of their homeland because others envied their power? Did the strength of the sun accidentally cause them to harm a loved one, or are they admired as a hero?</p>
+      <p>
+        <strong>Quick Build.</strong> Strength should be your highest ability score, followed by Constitution. The source suggests the Outcast background and a greataxe and chain mail.</p>
+      <h4>HIT POINTS</h4>
+      <ul class="unstyled">
+        <li>
+          <strong>Hit Dice:</strong> 1d12 per Warrior of the Sun level</li>
+        <li>
+          <strong>Hit Points at 1st Level:</strong> 12 + your Constitution modifier</li>
+        <li>
+          <strong>Hit Points at Higher Levels:</strong> 1d12 (or 7) + your Constitution modifier per level after 1st</li>
+      </ul>
+      <h4>PROFICIENCIES</h4>
+      <ul class="unstyled">
+        <li>
+          <strong>Armor:</strong> All armor</li>
+        <li>
+          <strong>Weapons:</strong> Simple weapons, martial weapons</li>
+        <li>
+          <strong>Tools:</strong> "Bewers Supplies" (source spelling; interpreted as brewer's supplies for the proficiency entry)</li>
+        <li>
+          <strong>Saving Throws:</strong> Strength, Constitution</li>
+        <li>
+          <strong>Skills:</strong> Intimidation, Perception, Athletics</li>
+      </ul>
+      <h4>EQUIPMENT</h4>
+      <ul>
+        <li>(a) any martial weapon or (b) any simple weapon</li>
+        <li>(a) chain mail or (b) scale mail</li>
+        <li>(a) an adventurer's pack or (b) a dungeoneer's pack</li>
+        <li>Glasses to nullify the effects of sunshine</li>
+        <li>If using starting wealth, 5d4 × 10 gp</li>
+      </ul>
+      <h4>THE WARRIOR OF THE SUN</h4>
+      <table class="class-features">
+        <thead>
+          <tr>
+            <td>Level</td>
+            <td>Proficiency Bonus</td>
+            <td>Features</td>
+          </tr>
+        </thead>
+        <tr>
+          <td>1</td>
+          <td>+2</td>
+          <td>Sunshine, Magic Sense</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>+2</td>
+          <td>Blazing Defense, Burst of Power</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>+2</td>
+          <td>Path of the Sun, Prideful Strike</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>+2</td>
+          <td>Ability Score Improvement</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>+3</td>
+          <td>Extra Attack, Prideful Strike Improvement</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>+3</td>
+          <td>Sun's Protection</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>+3</td>
+          <td>Path Features</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>+3</td>
+          <td>Ability Score Improvement, Sun's Blessing</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>+4</td>
+          <td>Godly Radiance</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>+4</td>
+          <td>Intense Aura, Prideful Sinner</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>+4</td>
+          <td>Path Features, Prideful Strike Improvement</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>+4</td>
+          <td>Ability Score Improvement</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>+5</td>
+          <td>Godly Radiance Improvement</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>+5</td>
+          <td>Cruel Sun</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>+5</td>
+          <td>Path Features</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>+5</td>
+          <td>Ability Score Improvement</td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td>+6</td>
+          <td>The One, Prideful Strike Improvement</td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>+6</td>
+          <td>Path Features, Sun's Protection Improvement</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>+6</td>
+          <td>Ability Score Improvement, Godly Radiance</td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>+6</td>
+          <td>The Ultimate One</td>
+        </tr>
+      </table>
+    </description>
+    <setters>
+      <set name="hd">d12</set>
+      <set name="short">A warrior whose physical might grows with the power of the sun.</set>
+    </setters>
+    <sheet display="false" />
+    <rules>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" />
+      <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_BREWERS_SUPPLIES" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_SUNSHINE" level="1" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_MAGIC_SENSE" level="1" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_BLAZING_DEFENSE" level="2" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_BURST_OF_POWER" level="2" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_PATH_OF_THE_SUN" level="3" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_PRIDEFUL_STRIKE" level="3" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_EXTRA_ATTACK" level="5" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_SUN_S_PROTECTION" level="6" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_SUN_S_BLESSING" level="8" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_GODLY_RADIANCE" level="9" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_INTENSE_AURA" level="10" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_PRIDEFUL_SINNER" level="10" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_CRUEL_SUN" level="14" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_THE_ONE" level="17" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_THE_ULTIMATE_ONE" level="20" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_ASI" level="4" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_GODLY_RADIANCE" level="13" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_GODLY_RADIANCE" level="19" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_PRIDEFUL_STRIKE" level="5" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_PRIDEFUL_STRIKE" level="11" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_PRIDEFUL_STRIKE" level="17" />
+      <grant type="Class Feature" id="ID_WOTS_FEATURE_SUN_PROTECTION_IMPROVEMENT" level="18" />
+    </rules>
+  </element>
+  <element name="Sunshine" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_FEATURE_SUNSHINE">
+    <description>
+      <p>While it is daytime or you are in sunlight, you gain the benefits below: advantage on Strength and Dexterity checks; a +2d4 bonus to damage rolls (the damage dice increase one size for every 2 levels in this class, to a maximum of 2d12); your unarmed strikes deal 1d10 damage; advantage on Charisma (Intimidation) checks; advantage on saving throws against being frightened; and the ability to see normally in magical and nonmagical darkness out to 120 feet. Intense Pride: while not under Sunshine, you have disadvantage on Charisma (Intimidation) checks and saving throws against being frightened.</p>
+    </description>
+    <sheet>
+      <description>While it is daytime or you are in sunlight, you gain the benefits below: advantage on Strength and Dexterity checks; a +2d4 bonus to damage rolls (the damage dice increase one size for every 2 levels in this class, to a maximum of 2d12); your unarmed strikes deal 1d10 damage; advantage on Charisma (Intimidation) checks; advantage on saving throws against being frightened; and the ability to see normally in magical and nonmagical darkness out to 120 feet. Intense Pride: while not under Sunshine, you have disadvantage on Charisma (Intimidation) checks and saving throws against being frightened.</description>
+    </sheet>
+  </element>
+  <element name="Magic Sense" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_FEATURE_MAGIC_SENSE">
+    <description>
+      <p>Choose one creature within 60 feet. You learn whether its Strength, Dexterity, and Constitution are higher or lower than yours, and its highest-level spell slot, if any. You can use this feature a number of times equal to your Charisma modifier and regain all uses after a long rest.</p>
+    </description>
+    <sheet>
+      <description>Choose one creature within 60 feet. You learn whether its Strength, Dexterity, and Constitution are higher or lower than yours, and its highest-level spell slot, if any. You can use this feature a number of times equal to your Charisma modifier and regain all uses after a long rest.</description>
+    </sheet>
+  </element>
+  <element name="Blazing Defense" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_FEATURE_BLAZING_DEFENSE">
+    <description>
+      <p>While Sunshine is active, your AC can be 10 + your Strength modifier + your Constitution modifier. If you are wearing armor, choose whether to use its AC or this AC. You can still use magical properties of armor while using this feature. You are immune to the effects of extreme cold and extreme heat, even when Sunshine is inactive.</p>
+    </description>
+    <sheet>
+      <description>While Sunshine is active, your AC can be 10 + your Strength modifier + your Constitution modifier. If you are wearing armor, choose whether to use its AC or this AC. You can still use magical properties of armor while using this feature. You are immune to the effects of extreme cold and extreme heat, even when Sunshine is inactive.</description>
+    </sheet>
+  </element>
+  <element name="Burst of Power" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_FEATURE_BURST_OF_POWER">
+    <description>
+      <p>When Sunshine is not active, you can use a bonus action to transform and gain Sunshine for 2 minutes. When the transformation ends, choose to expend one Hit Die or suffer one level of exhaustion.</p>
+    </description>
+    <sheet>
+      <description>When Sunshine is not active, you can use a bonus action to transform and gain Sunshine for 2 minutes. When the transformation ends, choose to expend one Hit Die or suffer one level of exhaustion.</description>
+    </sheet>
+  </element>
+  <element name="Path of the Sun" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_FEATURE_PATH_OF_THE_SUN">
+    <compendium display="false" />
+    <description>
+      <p>Choose the Sun of Strength or Sun of Skill path. Your path grants features at 3rd, 7th, 11th, 15th, and 18th level.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Archetype" name="Path of the Sun" supports="Warrior of the Sun Path" level="3" />
+    </rules>
+  </element>
+  <element name="Prideful Strike" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_FEATURE_PRIDEFUL_STRIKE">
+    <description>
+      <p>While Sunshine is active, use a bonus action to make a powerful strike in a line 5 feet wide. Each creature in the line must make a Dexterity saving throw (DC = 8 + your proficiency bonus + your Strength modifier). On a failed save, it takes bludgeoning damage; the source text gives 2d10 + your Strength modifier, or half damage on a failed save. Objects and structures that are not worn or carried take maximum damage. Damage increases to 3d10 at 5th level, 5d10 at 11th level, and 7d10 at 17th level. The line is 10 feet long, increasing to 20 feet at 9th level and 30 feet at 17th level. Note: the source text says half damage on a failed save; this appears internally inconsistent and is preserved for DM adjudication.</p>
+    </description>
+    <sheet>
+      <description>While Sunshine is active, use a bonus action to make a powerful strike in a line 5 feet wide. Each creature in the line must make a Dexterity saving throw (DC = 8 + your proficiency bonus + your Strength modifier). On a failed save, it takes bludgeoning damage; the source text gives 2d10 + your Strength modifier, or half damage on a failed save. Objects and structures that are not worn or carried take maximum damage. Damage increases to 3d10 at 5th level, 5d10 at 11th level, and 7d10 at 17th level. The line is 10 feet long, increasing to 20 feet at 9th level and 30 feet at 17th level. Note: the source text says half damage on a failed save; this appears internally inconsistent and is preserved for DM adjudication.</description>
+    </sheet>
+  </element>
+  <element name="Ability Score Improvement" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_FEATURE_ABILITY_SCORE_IMPROVEMENT">
+    <compendium display="false" />
+    <description>
+      <p>Increase one ability score by 2, or two ability scores by 1. You cannot increase an ability score above 20 using this feature. You gain this feature again at 8th, 12th, 16th, and 19th level.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <select type="Class Feature" name="Ability Score Improvement (Warrior of the Sun 4)" supports="Improvement Option,Warrior of the Sun,4" level="4" />
+      <select type="Class Feature" name="Ability Score Improvement (Warrior of the Sun 8)" supports="Improvement Option,Warrior of the Sun,8" level="8" />
+      <select type="Class Feature" name="Ability Score Improvement (Warrior of the Sun 12)" supports="Improvement Option,Warrior of the Sun,12" level="12" />
+      <select type="Class Feature" name="Ability Score Improvement (Warrior of the Sun 16)" supports="Improvement Option,Warrior of the Sun,16" level="16" />
+      <select type="Class Feature" name="Ability Score Improvement (Warrior of the Sun 19)" supports="Improvement Option,Warrior of the Sun,19" level="19" />
+    </rules>
+  </element>
+  <element name="Extra Attack" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_FEATURE_EXTRA_ATTACK">
+    <description>
+      <p>You can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+    </description>
+    <sheet>
+      <description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+    </sheet>
+  </element>
+  <element name="Sun's Protection" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_FEATURE_SUN_S_PROTECTION">
+    <description>
+      <p>When you take fire or radiant damage, you instead absorb it and regain hit points equal to all the damage you would have taken.</p>
+    </description>
+    <sheet>
+      <description>When you take fire or radiant damage, you instead absorb it and regain hit points equal to all the damage you would have taken.</description>
+    </sheet>
+  </element>
+  <element name="Sun's Blessing" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_FEATURE_SUN_S_BLESSING">
+    <description>
+      <p>When an effect allows you to make a Constitution saving throw to take only half damage, you instead take no damage on a success and half damage on a failure. Your hit point maximum also increases by 3 times your level. Whenever you gain a level thereafter, your hit point maximum increases by an additional 3 hit points.</p>
+    </description>
+    <sheet>
+      <description>When an effect allows you to make a Constitution saving throw to take only half damage, you instead take no damage on a success and half damage on a failure. Your hit point maximum also increases by 3 times your level. Whenever you gain a level thereafter, your hit point maximum increases by an additional 3 hit points.</description>
+    </sheet>
+  </element>
+  <element name="Godly Radiance" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_FEATURE_GODLY_RADIANCE">
+    <description>
+      <p>While Sunshine is active, when you fail a saving throw, you can reroll it and must use the new roll. You can do so once per long rest; this increases to twice per long rest at 13th level and three times per long rest at 17th level.</p>
+    </description>
+    <sheet>
+      <description>While Sunshine is active, when you fail a saving throw, you can reroll it and must use the new roll. You can do so once per long rest; this increases to twice per long rest at 13th level and three times per long rest at 17th level.</description>
+    </sheet>
+  </element>
+  <element name="Intense Aura" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_FEATURE_INTENSE_AURA">
+    <description>
+      <p>While Sunshine is active, each creature other than you within 5 feet takes fire damage equal to your Charisma modifier. This damage ignores resistance to fire damage.</p>
+    </description>
+    <sheet>
+      <description>While Sunshine is active, each creature other than you within 5 feet takes fire damage equal to your Charisma modifier. This damage ignores resistance to fire damage.</description>
+    </sheet>
+  </element>
+  <element name="Prideful Sinner" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_FEATURE_PRIDEFUL_SINNER">
+    <description>
+      <p>You are immune to being charmed or frightened. You can add double your Strength modifier to your attack and damage rolls.</p>
+    </description>
+    <sheet>
+      <description>You are immune to being charmed or frightened. You can add double your Strength modifier to your attack and damage rolls.</description>
+    </sheet>
+  </element>
+  <element name="Cruel Sun" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_FEATURE_CRUEL_SUN">
+    <description>
+      <p>As a bonus action while Sunshine is active, summon a blazing fireball that floats around you. While active, you gain +2 AC; nonmagical metal within 10 feet (excluding your own) melts and is affected as though by heat metal; it emits bright light for 60 feet and dim light for another 60 feet, and dispels magical darkness in its bright light (except in The One or The One: Ultimate forms). You can shoot it at a visible target within 30 feet: the target makes a Dexterity save (DC = 8 + proficiency bonus + Strength modifier), taking 5d10 fire + 4d8 radiant + your Strength modifier damage and being pushed 10 feet on a failure, or half damage without push on a success. Alternatively, ride it and gain a flying speed equal to your walking speed. Uses equal your Strength modifier; regain all uses after a short or long rest.</p>
+    </description>
+    <sheet>
+      <description>As a bonus action while Sunshine is active, summon a blazing fireball that floats around you. While active, you gain +2 AC; nonmagical metal within 10 feet (excluding your own) melts and is affected as though by heat metal; it emits bright light for 60 feet and dim light for another 60 feet, and dispels magical darkness in its bright light (except in The One or The One: Ultimate forms). You can shoot it at a visible target within 30 feet: the target makes a Dexterity save (DC = 8 + proficiency bonus + Strength modifier), taking 5d10 fire + 4d8 radiant + your Strength modifier damage and being pushed 10 feet on a failure, or half damage without push on a success. Alternatively, ride it and gain a flying speed equal to your walking speed. Uses equal your Strength modifier; regain all uses after a short or long rest.</description>
+    </sheet>
+  </element>
+  <element name="The One" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_FEATURE_THE_ONE">
+    <description>
+      <p>As an action, enter this form for 1 minute; once used, regain the ability after a long rest. You gain bonus hit points equal to proficiency bonus × class level; resistance to all damage; immunity to prone, grappled, blinded, possessed, poisoned, stunned, paralyzed, restrained, and petrified; a 10-foot aura that deals fire damage equal to your Charisma modifier to creatures in it at the start of your turns; and your damage ignores resistance, immunity, and absorption. At the end, you suffer 1 level of exhaustion.</p>
+    </description>
+    <sheet>
+      <description>As an action, enter this form for 1 minute; once used, regain the ability after a long rest. You gain bonus hit points equal to proficiency bonus × class level; resistance to all damage; immunity to prone, grappled, blinded, possessed, poisoned, stunned, paralyzed, restrained, and petrified; a 10-foot aura that deals fire damage equal to your Charisma modifier to creatures in it at the start of your turns; and your damage ignores resistance, immunity, and absorption. At the end, you suffer 1 level of exhaustion.</description>
+    </sheet>
+  </element>
+  <element name="The Ultimate One" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_FEATURE_THE_ULTIMATE_ONE">
+    <description>
+      <p>Under the same conditions as The One, you can enter this form for 1 minute. You gain temporary hit points equal to your hit point maximum; all damage you deal increases by your proficiency bonus plus your class level; and your aura increases to 30 feet and deals 10d10 fire damage to all creatures within it. At the end, you suffer 5 levels of exhaustion and are reduced to 1 hit point.</p>
+    </description>
+    <sheet>
+      <description>Under the same conditions as The One, you can enter this form for 1 minute. You gain temporary hit points equal to your hit point maximum; all damage you deal increases by your proficiency bonus plus your class level; and your aura increases to 30 feet and deals 10d10 fire damage to all creatures within it. At the end, you suffer 5 levels of exhaustion and are reduced to 1 hit point.</description>
+    </sheet>
+  </element>
+  <element name="Sun's Protection Improvement" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_FEATURE_SUN_PROTECTION_IMPROVEMENT">
+    <description>
+      <p>The class table lists an improvement to Sun's Protection at 18th level, but the supplied class text does not describe what changes. This entry is a placeholder and does not add mechanics.</p>
+    </description>
+    <sheet>
+      <description>The source lists an improvement at 18th level but does not describe it.</description>
+    </sheet>
+  </element>
+  <element name="Sun of Strength" type="Archetype" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_PATH_STRENGTH">
+    <supports>Warrior of the Sun Path</supports>
+    <description>
+      <p>Sun of Strength grants specialized features as you advance as a Warrior of the Sun.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Class Feature" id="ID_WOTS_STRENGTH_INCREASED_DURABILITY" level="3" />
+      <grant type="Class Feature" id="ID_WOTS_STRENGTH_RADIANT_MIGHT" level="7" />
+      <grant type="Class Feature" id="ID_WOTS_STRENGTH_DIVINE_AXE_RHITTA" level="7" />
+      <grant type="Class Feature" id="ID_WOTS_STRENGTH_SHINING_STRIKES" level="11" />
+      <grant type="Class Feature" id="ID_WOTS_STRENGTH_CHARGE_AND_FIRE" level="15" />
+      <grant type="Class Feature" id="ID_WOTS_STRENGTH_HOLY_SWORD_ESCANOR" level="18" />
+    </rules>
+  </element>
+  <element name="Increased Durability" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_STRENGTH_INCREASED_DURABILITY">
+    <description>
+      <p>While Sunshine is active, add your Sunshine die to saving throws, increase your hit points by your proficiency bonus × your level in this class, and you can choose to grow by one size category. You gain resistance to nonmagical bludgeoning, piercing, and slashing damage. At 10th level, this resistance applies to magical and nonmagical sources. At 18th level, while Sunshine is active, you gain an AC bonus equal to your Charisma modifier + your proficiency bonus.</p>
+    </description>
+    <sheet>
+      <description>While Sunshine is active, add your Sunshine die to saving throws, increase your hit points by your proficiency bonus × your level in this class, and you can choose to grow by one size category. You gain resistance to nonmagical bludgeoning, piercing, and slashing damage. At 10th level, this resistance applies to magical and nonmagical sources. At 18th level, while Sunshine is active, you gain an AC bonus equal to your Charisma modifier + your proficiency bonus.</description>
+    </sheet>
+  </element>
+  <element name="Radiant Might" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_STRENGTH_RADIANT_MIGHT">
+    <description>
+      <p>Your Strength score and maximum increase by 2. At 11th level in this class, the increase becomes 4.</p>
+    </description>
+    <sheet>
+      <description>Your Strength score and maximum increase by 2. At 11th level in this class, the increase becomes 4.</description>
+    </sheet>
+  </element>
+  <element name="Divine Axe Rhitta" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_STRENGTH_DIVINE_AXE_RHITTA">
+    <description>
+      <p>You gain a massive golden one-handed battleaxe that only you can lift or wield, and only while Sunshine is active. As a bonus action, call it to your hand from any distance; if it is on another plane, it takes 2 rounds to arrive. It grants +4 to attack and damage rolls and deals 1d12 + Strength modifier slashing damage plus 3d6 radiant or fire damage per hit; its damage is magical and silvered for overcoming resistance and immunity, and your speed increases by 10 feet while wielding it. At 20th level, you may attune to it; its slashing damage becomes 2d12 + Strength modifier, but it uses one of your normal magic-item attunement slots. If lost or destroyed, a 1-minute ritual at noon resummons it. The ritual can also copy the magical abilities of one other magic weapon at a time. You can suppress your Intense Aura around the axe while wielding it. You know the light cantrip and can cast daylight a number of times equal to your proficiency bonus, regaining uses after a long rest.</p>
+    </description>
+    <sheet>
+      <description>You gain a massive golden one-handed battleaxe that only you can lift or wield, and only while Sunshine is active. As a bonus action, call it to your hand from any distance; if it is on another plane, it takes 2 rounds to arrive. It grants +4 to attack and damage rolls and deals 1d12 + Strength modifier slashing damage plus 3d6 radiant or fire damage per hit; its damage is magical and silvered for overcoming resistance and immunity, and your speed increases by 10 feet while wielding it. At 20th level, you may attune to it; its slashing damage becomes 2d12 + Strength modifier, but it uses one of your normal magic-item attunement slots. If lost or destroyed, a 1-minute ritual at noon resummons it. The ritual can also copy the magical abilities of one other magic weapon at a time. You can suppress your Intense Aura around the axe while wielding it. You know the light cantrip and can cast daylight a number of times equal to your proficiency bonus, regaining uses after a long rest.</description>
+    </sheet>
+  </element>
+  <element name="Shining Strikes" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_STRENGTH_SHINING_STRIKES">
+    <description>
+      <p>While Sunshine is active, add your Charisma modifier + your proficiency bonus to damage rolls.</p>
+    </description>
+    <sheet>
+      <description>While Sunshine is active, add your Charisma modifier + your proficiency bonus to damage rolls.</description>
+    </sheet>
+  </element>
+  <element name="Charge and Fire" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_STRENGTH_CHARGE_AND_FIRE">
+    <description>
+      <p>Release the aura Rhitta has collected as a ball of fire and light with a 15-foot radius, thrown up to 60 feet. It deals 10d10 radiant damage and overcomes resistance and immunity. Each creature in range makes a Dexterity check (DC = 8 + proficiency bonus + Strength); the source calls this a check rather than a saving throw. Uses equal your Strength modifier; regain all uses after a short or long rest.</p>
+    </description>
+    <sheet>
+      <description>Release the aura Rhitta has collected as a ball of fire and light with a 15-foot radius, thrown up to 60 feet. It deals 10d10 radiant damage and overcomes resistance and immunity. Each creature in range makes a Dexterity check (DC = 8 + proficiency bonus + Strength); the source calls this a check rather than a saving throw. Uses equal your Strength modifier; regain all uses after a short or long rest.</description>
+    </sheet>
+  </element>
+  <element name="Holy Sword; Escanor" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_STRENGTH_HOLY_SWORD_ESCANOR">
+    <description>
+      <p>While in The One or The One: Ultimate form, use an action to make a massive strike with your hand. The source describes this as an automatic hit with a Strength DC 25; on failure the target takes 20d10 radiant damage and is knocked unconscious, and on success it takes half damage and is not knocked unconscious. The source does not define the target's save type; adjudicate with the DM.</p>
+    </description>
+    <sheet>
+      <description>While in The One or The One: Ultimate form, use an action to make a massive strike with your hand. The source describes this as an automatic hit with a Strength DC 25; on failure the target takes 20d10 radiant damage and is knocked unconscious, and on success it takes half damage and is not knocked unconscious. The source does not define the target's save type; adjudicate with the DM.</description>
+    </sheet>
+  </element>
+  <element name="Sun of Skill" type="Archetype" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_PATH_SKILL">
+    <supports>Warrior of the Sun Path</supports>
+    <description>
+      <p>Sun of Skill grants specialized features as you advance as a Warrior of the Sun.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <grant type="Class Feature" id="ID_WOTS_SKILL_WEAPON_EXPERTISE" level="3" />
+      <grant type="Class Feature" id="ID_WOTS_SKILL_SACRED_SPEAR_MARIA" level="7" />
+      <grant type="Class Feature" id="ID_WOTS_SKILL_CONTROLLED_AURA" level="11" />
+      <grant type="Class Feature" id="ID_WOTS_SKILL_SUNSHARE" level="15" />
+      <grant type="Class Feature" id="ID_WOTS_SKILL_HOLY_SPEAR_ESCANOR" level="18" />
+    </rules>
+  </element>
+  <element name="Weapon Expertise" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_SKILL_WEAPON_EXPERTISE">
+    <description>
+      <p>While Sunshine is active, add one Sunshine die (for example, 1d12) to your attack rolls. When you take the Dodge action, you can make one attack as a bonus action.</p>
+    </description>
+    <sheet>
+      <description>While Sunshine is active, add one Sunshine die (for example, 1d12) to your attack rolls. When you take the Dodge action, you can make one attack as a bonus action.</description>
+    </sheet>
+  </element>
+  <element name="Sacred Spear Maria" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_SKILL_SACRED_SPEAR_MARIA">
+    <description>
+      <p>You gain a powerful two-handed golden spear that only you can lift or wield, and only while Sunshine is active. As a bonus action, call it to your hand from any distance; if it is on another plane, it takes 2 rounds to arrive. It deals 1d12 + Strength modifier piercing damage, counts as magical for overcoming resistance and immunity, and has the reach property. If lost or destroyed, a 1-minute ritual at noon resummons it. The ritual can also copy the magical abilities of one other magic weapon at a time.</p>
+    </description>
+    <sheet>
+      <description>You gain a powerful two-handed golden spear that only you can lift or wield, and only while Sunshine is active. As a bonus action, call it to your hand from any distance; if it is on another plane, it takes 2 rounds to arrive. It deals 1d12 + Strength modifier piercing damage, counts as magical for overcoming resistance and immunity, and has the reach property. If lost or destroyed, a 1-minute ritual at noon resummons it. The ritual can also copy the magical abilities of one other magic weapon at a time.</description>
+    </sheet>
+  </element>
+  <element name="Controlled Aura" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_SKILL_CONTROLLED_AURA">
+    <description>
+      <p>As a bonus action, choose any number of creatures in your aura to become immune to its effects until you use a bonus action to change the selection. While your aura is active, you can focus it inward and increase your speed by 15 feet.</p>
+    </description>
+    <sheet>
+      <description>As a bonus action, choose any number of creatures in your aura to become immune to its effects until you use a bonus action to change the selection. While your aura is active, you can focus it inward and increase your speed by 15 feet.</description>
+    </sheet>
+  </element>
+  <element name="Sunshare" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_SKILL_SUNSHARE">
+    <description>
+      <p>You can share Sunshine with another creature. If you do, you lose Sunshine and all features the class grants from it. Sunshine returns after that creature dies or after one long rest. When Sunshine returns, the other creature loses 1 point of Constitution.</p>
+    </description>
+    <sheet>
+      <description>You can share Sunshine with another creature. If you do, you lose Sunshine and all features the class grants from it. Sunshine returns after that creature dies or after one long rest. When Sunshine returns, the other creature loses 1 point of Constitution.</description>
+    </sheet>
+  </element>
+  <element name="Holy Spear; Escanor" type="Class Feature" source="Warrior of the Sun (Variant) — D&amp;D Wiki" id="ID_WOTS_SKILL_HOLY_SPEAR_ESCANOR">
+    <description>
+      <p>While in The One or The One: Ultimate form, use an action to thrust your finger at an opponent. The target makes a Constitution saving throw (DC 27). On a failure, it takes 20d6 radiant damage, is pushed 100 feet, and is knocked prone. On a success, it takes half damage and is not pushed. The source adds: 'Rather fail or success the damage is still doubled or tripled respectively.' This unclear final clause is preserved for DM adjudication.</p>
+    </description>
+    <sheet>
+      <description>While in The One or The One: Ultimate form, use an action to thrust your finger at an opponent. The target makes a Constitution saving throw (DC 27). On a failure, it takes 20d6 radiant damage, is pushed 100 feet, and is knocked prone. On a success, it takes half damage and is not pushed. The source adds: 'Rather fail or success the damage is still doubled or tripled respectively.' This unclear final clause is preserved for DM adjudication.</description>
+    </sheet>
+  </element>
+</elements>
