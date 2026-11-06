@@ -3,10 +3,10 @@
   <info>
     <name>Warrior of the Sun (Variant)</name>
     <update version="1.0.0">
-      <file name="warrior-of-the-sun.index" url="https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/warrior-of-the-sun.index" />
+      <file name="warrior-of-the-sun.index" url="https://raw.githubusercontent.com/JMellon-0/Warrior-of-the-sun/main/warrior-of-the-sun.xml" />
     </update>
   </info>
   <files>
-    <file name="warrior-of-the-sun.xml" url="https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/warrior-of-the-sun.xml" />
+    <file name="warrior-of-the-sun.xml" url="https://raw.githubusercontent.com/JMellon-0/Warrior-of-the-sun/main/warrior-of-the-sun.xml" />
   </files>
 </index>
